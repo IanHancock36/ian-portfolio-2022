@@ -1,11 +1,14 @@
+import React from 'react'
 
+import Navbar from '../src/Components/Navbar'
+import  { BrowserRouter, HashRouter, Switch, Route } from "react-router-dom";
 
-import NavBar from './NavBar';
 
 function App() {
   return (
     <div >
-<NavBar />
+      <Navbar></Navbar>
+
     </div>
   );
 }
