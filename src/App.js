@@ -3,7 +3,7 @@ import Home from "./Components/Home"
 import Contact from './Components/Contact';
 import Navbar from './Components/Navbar'
 import About from './Components/About'
-import  { BrowserRouter, HashRouter, Switch, Route } from "react-router-dom";
+import  {HashRouter, Switch, Route } from "react-router-dom";
 
 
 function App() {
